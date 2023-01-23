@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <form id="form">
+        <input id="text-field" name="text-field" placeholder="pic" value="cat">
+
+        <div>
+            <label>
+                Sort value
+            </label>
+            <select id="sort-select-field" name="sort-select-field">
+                </option>
+                <option value="interestingness-asc">
+                    interestingness
+                </option>
+                <option value="relevance">
+                    relevance
+                </option>
+                <option value="date-taken-desc">
+                    not interestingness
+                </option>
+            </select>
+        </div>
+
+        <div>
+            <label>
+               size
+            </label>
+            <select id="image-size-select-field" name="image-size-select-field">
+                <option value="m">
+                    sm
+                </option>
+                <option value="w">
+                    md
+                </option>
+                <option value="b">
+                    lg
+                </option>
+            </select>
+        </div>
+        <div>
+            <label>
+                Amount
+            </label>
+            <input type="number" id="image-amount-select-field" name="image-amount-select-field" value="5">
+        </div>
+
+        <button type="submit">
+            search after pics
+        </button>
+    </form>
+
+    <div id="loading-element">
+        loading
+    </div>
+
+    <div id="content">
+    </div>
+
+    <div id="error-content">
+    </div>
+    <script src="lib/anime.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./script.js" defer></script>
+</body>
+</html>

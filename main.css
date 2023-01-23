@@ -1,0 +1,48 @@
+body{
+    background-color: silver;
+    color: brown;
+}
+
+#form {
+    display: flex;
+    gap: 16px;
+    margin: auto;
+    width: 100%;
+    max-width: 1024px;
+    margin-bottom: 64px;
+}
+
+img {
+    display: block;
+}
+
+#content, #error-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    max-width: 1024px;
+}
+
+
+#loading-element{
+    width: 200px;
+    height: 200px;
+      margin: 0;
+    padding: 0;
+    transform: translateX(1%) translateY(40%);
+    background: black;
+    clip-path: polygon(100% 28%, 51% 33%, 49% 34%, 46% 33%, 0 28%);
+}
+
+
+
+ 
+   
+
+
+  
+
+  
+
